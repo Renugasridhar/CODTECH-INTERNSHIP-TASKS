@@ -5,7 +5,7 @@ public class FileHandlingUtility {
 
     static String fileName = "sample.txt";
 
-    
+    // Method to write data to file
     public static void writeFile() {
         try {
             FileWriter writer = new FileWriter(fileName);
@@ -18,7 +18,7 @@ public class FileHandlingUtility {
         }
     }
 
-   
+    // Method to read data from file
     public static void readFile() {
         try {
             File file = new File(fileName);
@@ -33,7 +33,7 @@ public class FileHandlingUtility {
         }
     }
 
-    
+    // Method to modify (append) data to file
     public static void modifyFile() {
         try {
             FileWriter writer = new FileWriter(fileName, true);
@@ -45,13 +45,13 @@ public class FileHandlingUtility {
         }
     }
 
-    
+    // Main method
     public static void main(String[] args) {
         System.out.println("File Handling Utility");
 
-        writeFile();    
-        readFile();     
-        modifyFile();   
-        readFile();    
+        writeFile();    // Write data
+        readFile();     // Read data
+        modifyFile();   // Modify data
+        readFile();     // Read updated file
     }
 }
