@@ -1,6 +1,4 @@
    CODTECH SOLUTIONS INTERNSHIP - JAVA PROGRAMMING
-   
-   #Task completed for my Java Programming 
 
    This repository contains the four mandatory tasks completed during my Java Internship at CODTECH IT Solutions
 
